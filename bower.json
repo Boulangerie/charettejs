@@ -1,0 +1,38 @@
+{
+  "name": "charettejs",
+  "version": "1.0.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "angularjs#~1.4.5",
+    "angular-animate": "~1.4.5",
+    "angular-dynamic-locale": "~0.1.27",
+    "angular-i18n": "~1.4.5",
+    "angular-mocks": "~1.4.5",
+    "angular-resource": "~1.4.5",
+    "angular-sanitize": "~1.4.5",
+    "angular-translate": "~2.7.2",
+    "angular-translate-interpolation-messageformat": "~2.7.2",
+    "angular-translate-loader-static-files": "~2.7.2",
+    "bootstrap": "~3.3.5",
+    "jquery": "~2.1.4",
+    "lodash": "~3.10.1",
+    "moment": "momentjs#~2.10.6",
+    "moment-range": "~2.0.3",
+    "moment-timezone": "~0.4.0"
+  },
+  "install": {
+    "path": "vendors",
+    "sources": {
+      "angular-i18n": [
+        "bower_components/angular-i18n/angular-locale_fr-fr.js",
+        "bower_components/angular-i18n/angular-locale_en-us.js"
+      ]
+    }
+  }
+}
