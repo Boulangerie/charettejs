@@ -5,6 +5,8 @@
 
 # Charette JS
 
+[![Join the chat at https://gitter.im/Boulangerie/charettejs](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Boulangerie/charettejs?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 This package will turn *OFF* the hardship to maintain a single workflow architecture !
 
 ## How to use it
