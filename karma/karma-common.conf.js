@@ -5,7 +5,7 @@ module.exports = function(config, specificOptions) {
   var currentDir = process.cwd();
 
   var preprocessors = {};
-  preprocessors[currentDir + '/test/**/*.ts'] = ['typescript'];
+  preprocessors[currentDir + '/test/**/*.ts'] = ['typescript', 'coverage'];
 
   config.set({
     basePath: '../../..',
@@ -63,6 +63,9 @@ module.exports = function(config, specificOptions) {
         removeComments: false,
         declaration: false
       },
+      typings: [
+        currentDir + '/node_modules/charettejs/typings/jasmine/jasmine.d.ts'
+      ],
       // transforming the filenames
       transformPath: function(path) {
         return path.replace(/\.ts$/, '.js');

@@ -37,13 +37,13 @@ module.exports = (grunt) ->
       test:
         command: [
           'npm link'
-          'cd sample'
+          'cd sample/angularjs-app'
           'npm link charettejs'
           'npm i'
         ].join('&& ')
       testSample:
         command: [
-          'cd sample'
+          'cd sample/angularjs-app'
           'grunt karma:unit'
         ].join('&& ')
       installbowerdep:

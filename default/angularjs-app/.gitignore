@@ -1,0 +1,51 @@
+### Misc ###
+# Keep !empty files
+!empty
+
+*~
+*.DS_Store
+.history
+
+### Bower ###
+bower_components
+.bower-cache
+.bower-registry
+.bower-tmp
+
+### grunt ###
+# Application output folder
+dist/
+
+# Grunt intermediate storage
+.grunt
+.tmp/
+
+### SASS ###
+.sass-cache/
+
+### Node ###
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Test reports
+reports
+
+# Dependency directory
+# https://docs.npmjs.com/misc/faq#should-i-check-my-node-modules-folder-into-git
+node_modules
+
+### WebStorm ###
+*.iml
+.idea/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+tscommand*

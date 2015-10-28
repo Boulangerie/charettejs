@@ -1,15 +1,14 @@
 <img src="https://cloud.githubusercontent.com/assets/449520/9855019/2d5ddbbe-5b0c-11e5-9525-17a5bb15707c.png" width="512" height="256px">
 
-[![Build Status](https://travis-ci.org/Boulangerie/charettejs.svg?branch=master)](https://travis-ci.org/Boulangerie/charettejs)
-[![Gitter Chat](https://badges.gitter.im/Boulangerie/charettejs.svg)](https://gitter.im/Boulangerie/charettejs)
-
 # Charette JS
 
-This package will turn *OFF* the hardship to maintain a single workflow architecture !
+## How to bootstrap an angularjs app in typescript
 
-## How to use it
-
-Install the package :
+```
+mkdir awesome-app && cd $_
+npm init
+npm i --save-dev charettejs
+```
 
 `npm i -S charettejs`
 

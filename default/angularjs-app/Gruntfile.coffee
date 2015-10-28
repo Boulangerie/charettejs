@@ -14,4 +14,9 @@ module.exports =  (grunt) ->
     karma:
       options:
         files: [__dirname + '/test/unit/main.spec.ts']
-
+    tslint:
+      base:
+        options:
+          configuration:
+            rules:
+              'variable-name': false
